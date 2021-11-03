@@ -9,3 +9,4 @@ app.engine('html', require('ejs').renderFile);
 var server = app.listen(3000, function(){
     console.log("서버열림ㅉㅈ")
 });
+app.use(express.static('client'));
