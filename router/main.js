@@ -3,7 +3,7 @@ module.exports = function(app)
      app.get('/',function(req,res){
         res.render('index.html')
      });
-     app.get('/sans',function(req,res) {
-        res.render('sans.html')
+     app.get('/talk',function(req,res) {
+        res.render('talk.html')
      });
 }
