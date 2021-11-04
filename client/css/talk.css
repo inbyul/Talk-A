@@ -1,0 +1,14 @@
+@font-face {
+    src : url("./font/CookieRun_Black.ttf");
+    font-family: "cookie-run-black"
+}
+
+@font-face {
+    src : url("./font/CookieRun_Bold.ttf");
+    font-family: "cookie-run-bold"
+}
+
+@font-face {
+    src : url("./font/CookieRun_Regular.ttf");
+    font-family: "cookie-run-regular"
+}

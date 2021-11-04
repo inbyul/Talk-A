@@ -12,10 +12,7 @@ module.exports = function(app)
       app.get('/talk',function(req,res) {
         res.render('talk.html')
       });
-      app.get('/close',function(req,res) {
-        res.render('close.html')
+      app.get('/login',function(req,res) {
+        res.render('login.html')
       });
-      app.get('/admin',function(req,res) {
-        res.render('secret.html')
-      })
 }
