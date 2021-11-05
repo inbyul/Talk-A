@@ -11,6 +11,11 @@ input {
   width: 100px;
   margin: 0 auto;
 }
+
+button {
+  width: 100px;
+  height: 10px;
+}
 //어떤 크기요? 
 //다 적절히 크게하고(?) 가운데배치
 음?
