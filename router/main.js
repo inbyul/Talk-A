@@ -9,7 +9,7 @@ module.exports = function(app)
       app.get('/register',function(req,res) {
         res.render('register.html')
       });
-      app.get('/talk',function(req,res) {
+      app.get('@talk',function(req,res) {
         res.render('talk.html')
       });
       app.get('/login',function(req,res) {

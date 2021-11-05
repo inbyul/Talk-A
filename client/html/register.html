@@ -2,25 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../css/register-template.css">
-  <script src="../js/register-template.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>회원가입</title>
+  <script src="../js/script.js" ></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>register</title>
 </head>
 <body>
-  <article class="article">
-    <form action="http://lab.alexcican.com/minimal_signup_form/about.html" method="get">
-      <span class="text">회원가입</span>
-      <br><br>
-      <input type="text" name="name" placeholder="사용할 닉네임을 입력해주세요" title="예시-inbyul" autofocus autocomplete="off"/><br>
-      <input type="email" title="이메일을입력해주세요" name="email" placeholder="이메일을입력해주세요" required />
-      <br>
-      <input type="password" name="password" id="password" placeholder="비밀번호를 입력해주세요" title="8글자 이상으로 설정해주세요" required pattern="(?=^.{8,}$)(?=.*[a-z])(?=^.*[1-9])(?!.*\s).*$"/>
-      <br>
-      <button type="submit" value="회원가입" title="회원가입" class="icon-arrow-right">
-      <span>Sign up</span></button>
+  <h1>인별톡이 처음이신가요?</h1>
+  <div class="container">
+    <form action="register.js">
+      <input type="email" id="email" placeholder="e.g) example@example.com" class="input" />
+      <input id="id" placeholder="e.g) inbyul" class="input" />
+      <input type="password" id="password" placeholder="간단한 비밀번호 X" class="input" />
     </form>
-  </article>
-</form>
+  </div>
 </body>
 </html>
