@@ -1,52 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
-@font-face {
-    src : url("./font/CookieRun_Black.ttf");
-    font-family: "cookie-run-black"
+.Rectangle_1 {
+  position: absolute;
+  width: 230px;
+  height: 50px;
+  right: 375px;
+  top: 804px;
+  background: #FFC179;
+  border-radius: 20px;
 }
 
+.btn_text {
+position: absolute;
+width: 135px;
+height: 22px;
+right: 422.5px;
+top: 818px;
 
-@font-face {
-    src : url("./font/CookieRun_Bold.ttf");
-    font-family: "cookie-run-bold"
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
 }
 
-@font-face {
-    src : url("./font/CookieRun_Regular.ttf");
-    font-family: "cookie-run-regular"
+.Rectangle_2 {
+  position: absolute;
+  width: 447px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  background: #C4C4C4;
 }
 
-body {
-  font-family: 'Noto Sans KR', sans-serif;
+.Rectangle_3 {
+  position: absolute;
+  width: 547px;
+  height: 86px;
+  left: 670px;
+  top: 332px;
+  background: #C4C4C4;
 }
 
-.container {
-  position: relative;
-  top: 70px;
-  left: 23%;
-  width: 1000px;
-  height: 800px;
+.Rectangle_4 {
+  position: absolute;
+  width: 547px;
+  height: 86px;
+  left: 670px;
+  top: 478px;
+  background: #C4C4C4;
+}
+
+.Rectangle_5 {
+  position: absolute;
+  width: 547px;
+  height: 86px;
+  left: 670px;
+  top: 624px;
+  background: #C4C4C4;
+}
+
+.main {
+  position: absolute;
+  width: 196px;
+  height: 55px;
+  left: 835px;
+  top: 170px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
   text-align: center;
-  border: 3px solid #4568DC;
-  border-radius: 50px;
+  color: #000000;
 }
 
-input[type=text], input[type=password], input[type=email] {
-  width: 60%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+.text_id {
+    position: absolute;
+    width: 115px;
+    height: 37px;
+    left: 670px;
+    top: 288px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
 }
 
-label {
-  font-size: 25px;
+.text_email {
+  position: absolute;
+  width: 112px;
+  height: 37px;
+  left: 670px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
 }
 
-hr {
-  height: 3px;
-  width: 100%;
-  border: none;
-  background-color: #4568DC;
+.text_pwd {
+  position: absolute;
+  width: 153px;
+  height: 37px;
+  left: 670px;
+  top: 577px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
 }

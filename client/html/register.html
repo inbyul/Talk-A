@@ -9,21 +9,16 @@
   <title>register</title>
 </head>
 <body>
+  <div class="Rectangle_2"></div>
     <form action="">
-      <div class="container">
-        <h1 class="main"><br>회원가입<br><br></h1>
-        <hr><br><br>
-        <label for="name"><b>닉네임<br></b></label>
-        <input type="text" name="id" placeholder="닉네임을 입력해주세요 e.g) 홍길동/Hong-Gildong" title="예시-홍길동/Hong-Gildong" autofocus maxlength=18/><br>
-        <label for="email"><b>이메일<br></b></label>
-        <input type="email" title="이메일을 입력해주세요" name="email" placeholder="35글자이하의 이메일을 입력해주세요 e.g) example@example.com" required maxlength=35/>
-        <br>
-        <label for="password"><b>비밀번호<br></b></label>
-        <input type="password" name="password" placeholder="비밀번호를 입력해주세요 !) 쉬운 비밀번호는 권장하지않습니다." title="특수문자 포함으로 8~30글자으로 설정해주세요" required pattern="(?=.*[a-z])(?!.*\s)" maxlength=30/>
-        <br>
-        <button type="submit" value="회원가입" title="회원가입" class="icon-arrow-right">회원가입</button>
-      </div>
+        <h1 class="main">회원가입</h1>
+        <label for="name" class="text_id">닉네임</label>
+        <input class="Rectangle_3" type="text" name="id" placeholder="닉네임을 입력해주세요 e.g) 홍길동/Hong-Gildong" title="예시-홍길동/Hong-Gildong" autofocus maxlength=18/>
+        <label for="email" class="text_email">이메일</label>
+        <input class="Rectangle_4" type="email" title="이메일을 입력해주세요" name="email" placeholder="35글자이하의 이메일을 입력해주세요 e.g) example@example.com" required maxlength=35/>
+        <label for="password" class="text_pwd">비밀번호</label>
+        <input class="Rectangle_5" type="password" name="password" placeholder="비밀번호를 입력해주세요 !) 쉬운 비밀번호는 권장하지않습니다." title="특수문자 포함으로 8~30글자으로 설정해주세요" required pattern="(?=.*[a-z])(?!.*\s)" maxlength=30/>
+        <button class="Rectangle_1" type="submit" value="회원가입" title="회원가입" class="btn_text">회원가입</button>
     </form>
-  </div>
 </body>
 </html>
