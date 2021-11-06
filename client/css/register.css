@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
 @font-face {
     src : url("./font/CookieRun_Black.ttf");
     font-family: "cookie-run-black"
 }
+
 
 @font-face {
     src : url("./font/CookieRun_Bold.ttf");
@@ -11,4 +14,39 @@
 @font-face {
     src : url("./font/CookieRun_Regular.ttf");
     font-family: "cookie-run-regular"
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+  position: relative;
+  top: 70px;
+  left: 23%;
+  width: 1000px;
+  height: 800px;
+  text-align: center;
+  border: 3px solid #4568DC;
+  border-radius: 50px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+label {
+  font-size: 25px;
+}
+
+hr {
+  height: 3px;
+  width: 100%;
+  border: none;
+  background-color: #4568DC;
 }

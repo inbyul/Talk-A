@@ -5,17 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="../js/script.js" ></script>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/register.css">
   <title>register</title>
 </head>
 <body>
-  <h1>인별톡이 처음이신가요?</h1>
-  <div class="container">
-    <form action="register.js">
-      <input type="email" id="email" placeholder="e.g) example@example.com" class="input" />
-      <input id="id" placeholder="e.g) inbyul" class="input" />
-      <input type="password" id="password" placeholder="간단한 비밀번호 X" class="input" />
+    <form action="">
+      <div class="container">
+        <h1 class="main"><br>회원가입<br><br></h1>
+        <hr><br><br>
+        <label for="name"><b>닉네임<br></b></label>
+        <input type="text" name="id" placeholder="닉네임을 입력해주세요 e.g) 홍길동/Hong-Gildong" title="예시-홍길동/Hong-Gildong" autofocus maxlength=18/><br>
+        <label for="email"><b>이메일<br></b></label>
+        <input type="email" title="이메일을 입력해주세요" name="email" placeholder="35글자이하의 이메일을 입력해주세요 e.g) example@example.com" required maxlength=35/>
+        <br>
+        <label for="password"><b>비밀번호<br></b></label>
+        <input type="password" name="password" placeholder="비밀번호를 입력해주세요 !) 쉬운 비밀번호는 권장하지않습니다." title="특수문자 포함으로 8~30글자으로 설정해주세요" required pattern="(?=.*[a-z])(?!.*\s).*$" maxlength=30/>
+        <br>
+        <button type="submit" value="회원가입" title="회원가입" class="icon-arrow-right">회원가입</button>
+      </div>
     </form>
   </div>
 </body>
 </html>
+<!-- 비밀번호 확인 어디감
+빼앵뺴앵
+이제 커밋하겠습니다
+커밋이 뭦
+그거슨 이제 이때까지 작업한것을 레포지토리에 올리겠다는 뜻임미다
+내 알겟습다
+
+? -->
