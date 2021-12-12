@@ -2,10 +2,7 @@
   "name": "sanstalk",
   "version": "1.0.0",
   "description": "",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inbyul/sanstalk.git"
@@ -19,6 +16,7 @@
   "homepage": "https://github.com/inbyul/sanstalk#readme",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sqlite-async": "^1.1.2"
   }
 }
