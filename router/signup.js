@@ -1,9 +1,31 @@
 const router = require('express').Router();
 
-router.get('/', (req, res) => {
+module.exports = db => {
 
+    router.post('/', async (req, res) => {
 
+        const { name, email, password } = req.body;
+        if (req.session.email !== undefined) return;
+        
+        const user = await db.getUSER(email);
+        
+        if (user) {
+            let message = "account already exists!";
+            res.json({ err: 1, message: message });
+        }
 
-});
+        else {
 
-module.exports = router;
+            db.addUSER(name, email, password)
+                .then(()  => res.json({ err: 0 }))
+                .catch(() => res.json({ err: 1 }));
+            
+            req.session.email = email;
+            
+        }
+
+    });
+
+    return router;
+
+};
