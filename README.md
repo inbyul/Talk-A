@@ -1,6 +1,2 @@
-# Atalk
-노는앰일안함₩n
-노는앰일안함\n
-노는앰일안함\n
-노는앰일안함\n
-노는앰일안함\n
+# TalkA
+TalkA : More easier and More faster.
